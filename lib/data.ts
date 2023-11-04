@@ -5,6 +5,12 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import elsevierIcon from 'lib/images/elsevier.png';
+import genetwisterIcon from 'lib/images/genetwister.png'
+import tucIcon from 'lib/images/tuc.png'
+import wurIcon from 'lib/images/wur.png'
+import edxIcon from 'lib/images/edx.png'
+import testIcon from '/Users/giorgos/Dev/personal-website/lib/images/test.png';
 
 export const links = [
     {
@@ -35,28 +41,100 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Graduated bootcamp",
-        location: "Miami, FL",
+        title: "Senior Software Engineer",
+        location: "Amsterdam, NL",
         description:
-            "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-        icon: React.createElement(LuGraduationCap),
-        date: "2019",
+            [
+                "Worked on Big Data migration tasks to transition data process pipelines into modern technologies, " +
+                "including Spark, Neo4j, and Elasticsearch.", "Mentorship of fellow engineers towards best " +
+                "practices and code quality.",
+                "Led the software design and implementation of university ranking integration on the platform, " +
+                "including THE, QS, and HCCR rankings, resulting in elevated traffic and enhanced customer acquisition " +
+                "for SciVal.",
+                "Demonstrated expertise as an API champion for my " +
+                "squad, contributing to the migration of the second version of SciVal Public API.",
+                "Maintained and enhanced existing components of the SciVal frontend application, written in Java " +
+                "and JavaScript."
+            ],
+        icon: elsevierIcon,
+        company: "Elsevier",
+        date: "Dec 2021 - Present",
     },
     {
-        title: "Front-End Developer",
-        location: "Orlando, FL",
+        title: "Software Engineer",
+        location: "Wageningen, NL",
         description:
-            "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-        icon: React.createElement(CgWorkAlt),
-        date: "2019 - 2021",
+            [
+                "Built and maintained existing and new features for CROPaware a web-based tool that integrates " +
+                "different types of data formats and sources used by breeders to support their decisions in the " +
+                "new development of crop varieties.",
+                "Advocating and standardizing best practices and proper testing of the applications, improving " +
+                "data integrity and customer trust in the product."
+            ],
+        icon: genetwisterIcon,
+        company: "Genetwister Technologies",
+        date: "Jan 2021 - Dec 2021",
     },
     {
-        title: "Full-Stack Developer",
-        location: "Houston, TX",
+        title: "Software Developer",
+        location: "Wageningen, NL",
         description:
-            "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-        icon: React.createElement(FaReact),
-        date: "2021 - present",
+            [
+                "Developed the latest iteration of FARMSIM, a desktop application created using Python. " +
+                "The tool is used by external organizations, researchers, and master students to enhance " +
+                "crop-livestock production in farms.",
+                "Created WUR-LICT, an Electron/React application that enables re- searchers to benchmark the living " +
+                "income of rural households in Africa.",
+                "Designed the Nutrient Database Portal, a React-based web application that integrates various data " +
+                "sources of the group into a single, user-friendly web portal."
+            ],
+        icon: wurIcon,
+        company: "Plant Production Systems Group, WUR",
+        date: "Oct 2019 - Dec 2020",
+    },
+    {
+        title: "Software Engineer Intern",
+        location: "Wageningen, NL",
+        description:
+            [
+                "Created three new Java-based backend applications that effectively translate marker positions " +
+                "between reference genomes.",
+                "Conducted a comparative analysis of Apache Cassandra and Neo4j databases with regard to speed and " +
+                "size of marker position translation."
+            ],
+        icon: genetwisterIcon,
+        company: "Genetwister Technologies",
+        date: "Apr 2019 - Oct 2019",
+    },
+    {
+        title: "Course Moderator, Online Education",
+        location: "Remote, NL",
+        description:
+            [
+                "Moderated several online courses from various disciplines offered by WageningenX.",
+                "Answered students’ questions, graded students’ assignments, and assisted in the creation of the " +
+                "course material.",
+                "Developed into a role model for newer moderators."
+            ],
+        icon: edxIcon,
+        company: "edX",
+        date: "Oct 2017 - Sep 2019",
+    },
+    {
+        title: "Master's degree, Bioinformatics",
+        location: "Wageningen, NL",
+        description: [],
+        icon: wurIcon,
+        company: "Wageningen University & Research, WUR",
+        date: "Sep 2017 - Sep 2019",
+    },
+    {
+        title: "Diploma in Engineering (Integrated Master of Engineering), Environmental Engineering",
+        location: "Crete, GR",
+        description: [],
+        icon: tucIcon,
+        company: "Technical University of Crete",
+        date: "Sep 2010 - Sep 2015",
     },
 ] as const;
 
@@ -84,24 +162,29 @@ export const projectsData = [
     },
 ] as const;
 
-export const skillsData = [
-    "HTML",
-    "CSS",
+export const languagesAndFrameworks = [
+    "Java",
     "JavaScript",
-    "TypeScript",
-    "React",
-    "Next.js",
-    "Node.js",
-    "Git",
-    "Tailwind",
-    "Prisma",
-    "MongoDB",
-    "Redux",
-    "GraphQL",
-    "Apollo",
-    "Express",
-    "PostgreSQL",
+    "Typescript",
     "Python",
-    "Django",
-    "Framer Motion",
+    "Bash",
+    "Spring",
+    "JSP",
+    "React",
 ] as const;
+
+export const databases = [
+    "MySQL",
+    "Neo4j",
+    "Elasticsearch",
+    "Apache Cassandra",
+] as const;
+
+export const otherTechnologies = [
+    "Git",
+    "Docker",
+    "AWS",
+    "Spark",
+    "Electron",
+] as const;
+
