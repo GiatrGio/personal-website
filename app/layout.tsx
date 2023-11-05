@@ -36,7 +36,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Toaster position="top-right"/>
-        <Footer />
+        {/*<Footer />*/}
         <ThemeSwitch />
       </ActiveSectionContextProvider>
     </ThemeContextProvider>
