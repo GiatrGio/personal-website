@@ -67,17 +67,17 @@ export default function Intro() {
                     delay: 0.1
                 }}
             >
-                <Link
-                    href="#contact"
+                <button
                     className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
                     onClick={() => {
-                        setActiveSection("Contact");
-                        setTimeOfLastClick(Date.now());
+                        const email = "giorgos12giorgos@hotmail.com";
+                        window.location.href = `mailto:${email}`;
                     }}
                 >
                     Contact me here
-                    <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition "/>
-                </Link>
+                    <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+                </button>
+
 
                 <a
                     className="group bg-white px-7 py-3 flex items-center gap-2

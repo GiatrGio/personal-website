@@ -4,9 +4,7 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
-import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
-import toast from "react-hot-toast";
 
 export default function Contact() {
     const { ref } = useSectionInView("Contact");
@@ -33,7 +31,7 @@ export default function Contact() {
 
             <p className="text-gray-700 -mt-6 dark:text-white/80">
                 Please contact me directly at{" "}
-                <a className="underline" href="mailto:example@gmail.com">
+                <a className="underline" href="mailto:giorgos12giorgos@hotmail.com>
                     example@gmail.com
                 </a>{" "}
                 or through this form.

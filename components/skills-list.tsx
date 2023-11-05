@@ -31,7 +31,7 @@ interface SkillsListProps {
     skillsData: string[]; // Assuming skillsData is an array of strings
 }
 
-function SkillsList({ skillsData }: SkillsListProps) {
+export default function SkillsList({ skillsData }: SkillsListProps) {
     return (
         <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
             {skillsData.map((skill, index) => (
@@ -52,5 +52,3 @@ function SkillsList({ skillsData }: SkillsListProps) {
         </ul>
     );
 };
-
-export default SkillsList;

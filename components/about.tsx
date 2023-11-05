@@ -19,17 +19,12 @@ export default function About() {
         >
             <SectionHeading>About me</SectionHeading>
             <p className="mb-3">
-                Hey there, I'm Giorgos, your friendly neighborhood code wrangler!
-                I've got a knack for cooking up web and data-processing applications
-                from scratch – from the pretty Front End to the brainy Back End, and
-                all the secret sauce in between. I take my coding seriously, but
-                I don't take myself too seriously. I'm all about efficiency and
-                quality in my code, but I promise not to bore you with tech jargon.
-                I'm an easy-going, coffee-loving developer with a side of excellent
-                communication skills, and a passionate flair for what I do.
-            </p>
-            <p>Let's chat code,
-                collaborate on projects, and have a good time doing it!
+                Hey there, thanks for being here! My name is Giorgos and I'm a <b>Senior Software Engineer</b> based in NL.
+                My expertise lies in the development of <b>web</b> and <b>data processing</b> applications, covering everything from
+                front-end interfaces to back-end intricacies. I find great joy in participating
+                in the <b>whole development life cycle</b> of a product and I always strive for <b>efficiency </b>
+                and <b>quality</b> in my code.
+                I consider myself an easy-going person with <b>communication skills</b> and a <b>passion</b> for what I do.
             </p>
         </motion.section>
     );

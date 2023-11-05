@@ -1,7 +1,3 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -10,7 +6,7 @@ import genetwisterIcon from 'lib/images/genetwister.png'
 import tucIcon from 'lib/images/tuc.png'
 import wurIcon from 'lib/images/wur.png'
 import edxIcon from 'lib/images/edx.png'
-import testIcon from '/Users/giorgos/Dev/personal-website/lib/images/test.png';
+import {StaticImageData} from "next/image";
 
 export const links = [
     {
@@ -21,10 +17,10 @@ export const links = [
         name: "About",
         hash: "#about",
     },
-    {
-        name: "Projects",
-        hash: "#projects",
-    },
+    // {
+    //     name: "Projects",
+    //     hash: "#projects",
+    // },
     {
         name: "Skills",
         hash: "#skills",
@@ -34,12 +30,29 @@ export const links = [
         hash: "#experience",
     },
     {
-        name: "Contact",
-        hash: "#contact",
+        name: "Education",
+        hash: "#education",
     },
+    // {
+    //     name: "Contact",
+    //     hash: "#contact",
+    // },
 ] as const;
 
-export const experiencesData = [
+interface TimelineDataItem {
+    title: string;
+    location: string;
+    description: readonly string[];
+    icon: StaticImageData;
+    company: string;
+    date: string;
+}
+
+export interface TimelineDataProps {
+    timelineData: TimelineDataItem[];
+}
+
+export const experiencesData: readonly TimelineDataItem[] = [
     {
         title: "Senior Software Engineer",
         location: "Amsterdam, NL",
@@ -120,8 +133,11 @@ export const experiencesData = [
         company: "edX",
         date: "Oct 2017 - Sep 2019",
     },
+] as const;
+
+export const educationData = [
     {
-        title: "Master's degree, Bioinformatics",
+        title: "MSc Bioinformatics",
         location: "Wageningen, NL",
         description: [],
         icon: wurIcon,
