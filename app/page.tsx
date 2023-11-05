@@ -4,7 +4,6 @@ import About from "@/components/about";
 import Skills from "@/components/skills";
 import Experience from "@/components/experience";
 import React from "react";
-import Contact from "@/components/contact";
 import Education from "@/components/education";
 
 export default function Home() {
