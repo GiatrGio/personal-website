@@ -58,16 +58,16 @@ export const experiencesData: readonly TimelineDataItem[] = [
         location: "Amsterdam, NL",
         description:
             [
-                "Worked on Big Data migration tasks to transition data process pipelines into modern technologies, " +
-                "including Spark, Neo4j, and Elasticsearch.", "Mentorship of fellow engineers towards best " +
-                "practices and code quality.",
-                "Led the software design and implementation of university ranking integration on the platform, " +
+                "Led the architectural design and implementation of university ranking integration on the platform, " +
                 "including THE, QS, and HCCR rankings, resulting in elevated traffic and enhanced customer acquisition " +
-                "for SciVal.",
-                "Demonstrated expertise as an API champion for my " +
-                "squad, contributing to the migration of the second version of SciVal Public API.",
-                "Maintained and enhanced existing components of the SciVal frontend application, written in Java " +
-                "and JavaScript."
+                "for SciVal. ",
+                "Maintained and enhanced existing components of the SciVal API and frontend applications, written in " +
+                "Java and JavaScript.",
+                "Mentorship of fellow engineers towards best practices and code quality.",
+                "Enacted the role of Scrum Master, fostering agile methodologies to streamline collaboration and " +
+                "ensure successful project delivery.",
+                "Worked on Big Data migration tasks to transition data process pipelines into modern technologies, " +
+                "including Spark, Neo4j, and Elasticsearch."
             ],
         icon: elsevierIcon,
         company: "Elsevier",
@@ -89,7 +89,7 @@ export const experiencesData: readonly TimelineDataItem[] = [
         date: "Jan 2021 - Dec 2021",
     },
     {
-        title: "Software Developer",
+        title: "Software Engineer",
         location: "Wageningen, NL",
         description:
             [
@@ -110,8 +110,8 @@ export const experiencesData: readonly TimelineDataItem[] = [
         location: "Wageningen, NL",
         description:
             [
-                "Created three new Java-based backend applications that effectively translate marker positions " +
-                "between reference genomes.",
+                "Built three Java-based backend applications for streamlined marker position translation between " +
+                "reference genomes.",
                 "Conducted a comparative analysis of Apache Cassandra and Neo4j databases with regard to speed and " +
                 "size of marker position translation."
             ],
