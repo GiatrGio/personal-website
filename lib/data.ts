@@ -59,15 +59,14 @@ export const experiencesData: readonly TimelineDataItem[] = [
         description:
             [
                 "Led the architectural design and implementation of university ranking integration on the platform, " +
-                "including THE, QS, and HCCR rankings, resulting in elevated traffic and enhanced customer acquisition " +
-                "for SciVal. ",
-                "Maintained and enhanced existing components of the SciVal API and frontend applications, written in " +
-                "Java and JavaScript.",
-                "Mentorship of fellow engineers towards best practices and code quality.",
+                "including THE, QS, and HCCR rankings, serving over 200K unique visitors and increasing customer acquisition.",
+                "Maintained and enhanced existing components of the SciVal API and frontend applications, leading to " +
+                "increased user traffic and improved security.",
+                "Migrated data process pipelines into modern technologies, including Spark, Neo4j and Elasticsearch, " +
+                "improving their efficiency and cost-savings by more than 10X.",
                 "Enacted the role of Scrum Master, fostering agile methodologies to streamline collaboration and " +
                 "ensure successful project delivery.",
-                "Worked on Big Data migration tasks to transition data process pipelines into modern technologies, " +
-                "including Spark, Neo4j, and Elasticsearch."
+                "Mentorship of fellow engineers towards best practices and code quality."
             ],
         icon: elsevierIcon,
         company: "Elsevier",
@@ -78,11 +77,12 @@ export const experiencesData: readonly TimelineDataItem[] = [
         location: "Wageningen, NL",
         description:
             [
-                "Built and maintained existing and new features for CROPaware a web-based tool that integrates " +
-                "different types of data formats and sources used by breeders to support their decisions in the " +
-                "new development of crop varieties.",
-                "Advocating and standardizing best practices and proper testing of the applications, improving " +
-                "data integrity and customer trust in the product."
+                "Built new and maintained existing features in CROPaware a web-based tool that is widely used by 5 " +
+                "world leading companies in the plant biotech field.",
+                "Evaluated the technologies, created the POC and worked on the implementation of Leafy a Graph based " +
+                "genomic analysis platform that allows researchers to find interconnected data faster.",
+                "Advocating and standardizing best practices and proper testing of the applications, improving data " +
+                "integrity and customer trust in the product."
             ],
         icon: genetwisterIcon,
         company: "Genetwister Technologies",
@@ -93,13 +93,13 @@ export const experiencesData: readonly TimelineDataItem[] = [
         location: "Wageningen, NL",
         description:
             [
-                "Developed the latest iteration of FARMSIM, a desktop application created using Python. " +
-                "The tool is used by external organizations, researchers, and master students to enhance " +
-                "crop-livestock production in farms.",
+                "Developed the latest iteration of FarmSim a desktop application used by external organizations, " +
+                "researchers, and over 200 master students each semester to visualize and predict crop-livestock " +
+                "production in farms.",
                 "Created WUR-LICT, an Electron/React application that enables re- searchers to benchmark the living " +
                 "income of rural households in Africa.",
-                "Designed the Nutrient Database Portal, a React-based web application that integrates various data " +
-                "sources of the group into a single, user-friendly web portal."
+                "Designed the Nutrient Database Portal, an internal React-based web application that integrated over " +
+                "10 different data sources of the research group into a single, user-friendly web portal."
             ],
         icon: wurIcon,
         company: "Plant Production Systems Group, WUR",
@@ -110,10 +110,8 @@ export const experiencesData: readonly TimelineDataItem[] = [
         location: "Wageningen, NL",
         description:
             [
-                "Built three Java-based backend applications for streamlined marker position translation between " +
-                "reference genomes.",
-                "Conducted a comparative analysis of Apache Cassandra and Neo4j databases with regard to speed and " +
-                "size of marker position translation."
+                "Built 3 Java back-end POC applications for streamlined marker position translation between " +
+                "reference genomes."
             ],
         icon: genetwisterIcon,
         company: "Genetwister Technologies",
